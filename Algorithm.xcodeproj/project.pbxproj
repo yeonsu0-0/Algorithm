@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2F98D44828ABD49B00DE6156 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F98D44728ABD49B00DE6156 /* main.swift */; };
+		2F98D44828ABD49B00DE6156 /* Randomisation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F98D44728ABD49B00DE6156 /* Randomisation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +24,7 @@
 
 /* Begin PBXFileReference section */
 		2F4F50D828A6812C00F68971 /* Array2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Array2.swift; sourceTree = "<group>"; };
-		2F98D44728ABD49B00DE6156 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		2F98D44728ABD49B00DE6156 /* Randomisation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Randomisation.swift; sourceTree = "<group>"; };
 		2FA725D52895673200FCDC08 /* Algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithm; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FA725D82895673200FCDC08 /* rock-paper-scissors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "rock-paper-scissors.swift"; sourceTree = "<group>"; };
 		2FFAAB6C2895686C008D3079 /* swap func.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "swap func.swift"; sourceTree = "<group>"; };
@@ -73,7 +73,7 @@
 				2FFAAB6C2895686C008D3079 /* swap func.swift */,
 				2FFAAB6E28956BF3008D3079 /* Array.swift */,
 				2F4F50D828A6812C00F68971 /* Array2.swift */,
-				2F98D44728ABD49B00DE6156 /* main.swift */,
+				2F98D44728ABD49B00DE6156 /* Randomisation.swift */,
 			);
 			path = Swift;
 			sourceTree = "<group>";
@@ -136,7 +136,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2F98D44828ABD49B00DE6156 /* main.swift in Sources */,
+				2F98D44828ABD49B00DE6156 /* Randomisation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
