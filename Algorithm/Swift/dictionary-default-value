@@ -1,0 +1,24 @@
+//
+//  dictionary-default-value.swift
+//  Algorithm
+//
+//  Created by yeonsu on 2022/11/13.
+//
+
+import Foundation
+
+// 알고리즘 문제를 풀 때 빈도 계산하는 부분에서 유용하게 사용할 수 있는 딕셔너리에 대한 공부
+
+
+let adobe = ["photoshop", "illustrator", "xd" , "aftereffects" , "illustrator"]
+var dict = [String: Int]()      // 빈 딕셔너리 생성
+
+adobe.forEach {                 // 각 원소를 돌면서
+    if let count = dict[$0] {
+        dict[$0] = count + 1    // 기존에 있던 값이면 1 추가
+    } else {
+        dict[$0] = 1            // 기존에 없던 값이면 새로 추가
+    }
+}
+
+print(dict) // 결과: ["illustrator": 2, "photoshop": 1, "xd": 1, "aftereffects": 1]
